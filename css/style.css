@@ -94,6 +94,73 @@ ul li a{
     font-family: 'Lato';
     white-space: nowrap;
 }
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 0 20px;
+    margin: 0 20px;
+}
+article h1{
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Lato';
+    color: rgba(15, 139, 141, 1);
+    padding: 0 20px;
+}
+article span{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Lato';
+    color:rgba(236, 154, 41, 1);
+    padding: 0 20px;
+}
+article figure{
+  display: grid;
+  grid-template-columns: repeat(3, 500px);
+  grid-template-rows: repeat(1, 400px);
+  grid-gap: 20px;
+  padding: 0 20px;
+  white-space: nowrap;
+    
+}
+article h3{
+  padding-top: 40px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Lato';
+    color: rgba(15, 139, 141, 1);
+}
+article p{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Lato';
+    color:rgba(20, 54, 66, 1);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* bottom css red */
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    background-color: rgba(168, 32, 26, 1);
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Lato';
+    margin-top: 20px;
+    margin-bottom: 20px;
+    white-space: nowrap;
+    weight: 100%;
+}
 footer {
   background-color: rgba(20, 54, 66, 1);
   width: 100%;
@@ -112,6 +179,8 @@ footer figure{
   align-items: center;
   flex-direction: column;
   padding: 0 20px;  
+  margin: 0 20px;
+      
 }
 footer figure .icon{
   display: flex;
