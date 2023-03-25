@@ -94,6 +94,7 @@ ul li a{
     font-family: 'Lato';
     white-space: nowrap;
 }
+/* article */
 article{
     display: flex;
     flex-direction: column;
@@ -120,7 +121,7 @@ article span{
 }
 article figure{
   display: grid;
-  grid-template-columns: repeat(3, 500px);
+  grid-template-columns: repeat(3, 350px);
   grid-template-rows: repeat(1, 400px);
   grid-gap: 20px;
   padding: 0 20px;
@@ -141,6 +142,108 @@ article p{
     color:rgba(20, 54, 66, 1);
     padding-top: 20px;
     padding-bottom: 20px;
+}
+/* section */
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+section .box1{
+  display: flex;
+  padding: 20px;
+  margin: 0 10px;
+  color: white;
+  white-space: wrap;
+}
+section .box1 img{
+  width: 450px;
+  height: 500px;
+  border-radius: 20px;
+  padding: 20px;
+  border-radius: 40px;
+  margin: 0 20px;
+}
+section .box1 h3{
+  padding-top: 27px;
+  font-size: 50px;
+  font-weight: 800;
+  font-family: 'Lato';
+  color: rgba(15, 139, 141, 1);
+}
+section .box1 p{
+  white-space: pre-line;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Lato';
+  color: rgba(20, 54, 66, 1);
+  padding-top: 20px;
+}
+/* BOX2 */
+section .box2{
+  display: flex;
+  flex-direction: row-reverse;
+  white-space: pre-line;
+  padding: 20px;
+  margin: 0 10px;
+  color: black;
+}
+section .box2 h3{
+  padding-top: 27px;
+  font-size: 50px;
+  font-weight: 800;
+  font-family: 'Lato';
+  color: rgba(15, 139, 141, 1);
+}
+section .box2 p{
+  white-space: pre-line;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Lato';
+  color: rgba(20, 54, 66, 1);
+  padding-top: 20px;
+}
+
+section .box2 img{
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  padding: 20px;
+  border-radius: 40px;
+  margin: 0 20px;
+}
+/* BOX3 */
+section .box3{
+  display: flex;
+  padding: 20px;
+  margin: 0 10px;
+  color: white;
+  white-space: wrap;
+}
+section .box3 img{
+  width: 450px;
+  height: 500px;
+  border-radius: 20px;
+  padding: 20px;
+  border-radius: 40px;
+  margin: 0 20px;
+}
+section .box3 h3{
+  padding-top: 27px;
+  font-size: 50px;
+  font-weight: 800;
+  font-family: 'Lato';
+  color: rgba(15, 139, 141, 1);
+}
+section .box3 p{
+  white-space: pre-line;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Lato';
+  color: rgba(20, 54, 66, 1);
+  padding-top: 20px;
 }
 /* bottom css red */
 button{
@@ -193,7 +296,7 @@ footer figure .icon{
 
 footer .footer {
   margin: 20px;
-  column-gap: 20px;
+  column-gap: 10px;
   line-height: 1.5;
   font-size: 20px;
   justify-content: space-between;
@@ -204,12 +307,9 @@ footer .footer {
 .footer{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-   width: 100%;
-  padding: 0 20px;
+  align-items: flex-start;
+  width: 100%;
   white-space: nowrap;
-
 }
 .footer .product h3{
   font-size: 20px;
@@ -218,12 +318,26 @@ footer .footer {
   color: rgba(236, 154, 41, 1);
   padding: 0 20px;
 }
+.footer .store{
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Lato';
+  color: rgba(236, 154, 41, 1);
+  padding-bottom: 60px;
+}
 .footer .store h3{
   font-size: 20px;
   font-weight: 600;
   font-family: 'Lato';
   color: rgba(236, 154, 41, 1);
   padding: 0 20px;
+}
+.footer .contact {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Lato';
+  color: rgba(236, 154, 41, 1);
+  padding-bottom: 60px;
 }
 .footer .contact h3{
   font-size: 20px;
