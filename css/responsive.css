@@ -47,10 +47,29 @@ position: relative;
     }
 }
 @media (max-width: 768px) {
-    section .box1 .isi {
+    section .box1{
         display: flex;
         flex-direction: column;
-        flex-direction: row;
+        align-items: center;
     }
 
+}
+@media (max-width: 768px) {
+    section .box2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        white-space: nowrap;
+        font-size: 20px;
+        
+    }
+}
+@media (max-width: 768px) {
+    section .box3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 60%;
+        white-space: nowrap;
+    }
 }
