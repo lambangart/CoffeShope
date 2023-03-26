@@ -4,7 +4,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 html {
+  padding: 0;
+  margin: 0;
   width: 100%;
 }
 ul {
@@ -23,10 +31,12 @@ img{
   height: 100%;
 }
 header .coffe{
-  width:40%;
-  height:70%;
-  margin-left: 90px;
-  
+  width:100%;
+  height:90%;
+
+}
+html{
+  background-color: #f5f5f5;
 }
 .container {
     width: 100%;
@@ -34,20 +44,20 @@ header .coffe{
     background: url("../img/Coffe Header.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-size: cover;
     background-position: fixed;
-    height: 100vh;
     color: white;
     border-radius: 20px;
+   
 }
 .content{
   background: rgba(20, 54, 66, 0.7);
   width: 100%;
   margin: 0 ;
-  height: 100vh;
-  width: 100vw;
-  width: 100%;
   border-radius: 20px;
+}
+.content main{
+  margin: 0;
+  padding: 0;
 }
 .content header {
     display: flex;
@@ -62,7 +72,6 @@ header .coffe{
   flex-wrap: wrap;
   margin: 46px;
   column-gap: 20px;
-
 }
 .content header img{
     display: flex;
@@ -70,6 +79,8 @@ header .coffe{
     margin-left: 90px;
     margin-top: 20px;
     padding-left: 90px;
+    max-width: 200%;
+    height: auto;
 }
 .content header ul{
     display: flex;
@@ -88,8 +99,9 @@ ul li a{
     font-family: 'Lato';
 }
 .container main{
+    margin: 0;
+    padding: 0;
     display:flex;
-    flex-direction: column;
     width: 100%;
     height: 100%;
     align-items: center;
@@ -97,10 +109,9 @@ ul li a{
     font-size: 50px;
     line-spacing: 1.5;
     font-weight: 800;
-    line-height:84px;
-    padding-bottom: 150px;
+    line-height:120px;
     font-family: 'Lato';
-    white-space: nowrap;
+    white-space: wrap;
     }
   .container .content img{
       width: 50%;
@@ -109,14 +120,16 @@ ul li a{
     }
 /* article */
 article{
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 100%;
-    padding: 0 20px;
-    margin: 0 20px;
+    background-color: blue;
+    
 }
 article h1{
     font-size: 50px;
@@ -137,7 +150,6 @@ article figure{
   grid-template-columns: repeat(3, 250px);
   grid-template-rows: repeat(1, 250px);
   grid-gap: 60px;
-  padding: 0 20px;
   white-space: nowrap;
 }
 article  h1{
@@ -147,7 +159,7 @@ article figure img{
   animation: left 10s ease-in-out;
 }
 
-article h3{
+article h3{artic
   padding-top: 40px;
     font-size: 30px;
     font-weight: 600;
@@ -164,11 +176,14 @@ article p{
 }
 /* section */
 section{
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
+  background-color: red;
 }
 section .box1{
   display: flex;
@@ -177,6 +192,7 @@ section .box1{
   color: white;
   white-space: wrap;
   column-gap: 60px;
+  width: auto;
 }
 section .box1 img{
   width: 350px;
@@ -318,9 +334,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   color: white;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-top: 20px;
+
 }
 footer figure{
   display: flex;

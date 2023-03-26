@@ -1,3 +1,15 @@
+@media (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        white-space: wrap;
+        font-size: 20px;
+    }
+}
 @media (min-width: 768px) {
 .container main {
 display: flex;
@@ -30,27 +42,60 @@ padding-right: 10px;
 }
 }
 @media (max-width: 768px) {
+    .content header nav {
+        display: inline-flex;
+        flex-wrap: wrap;
+        margin: 46px;
+        column-gap: 20px;
+        padding-top: 60px;
+      }
+}
+@media (max-width: 768px) {
 .container header .coffe {
-height: 14%;
-width: 200%;
-padding-top: 10px;
-padding-bottom: 10px;
-
-margin-bottom: 90px;
-padding-bottom: 10px;
+height: 17%;
+width: 170%;
+padding-top: 20px;
+padding-bottom: 30px;
+padding-right: 100px;
+margin-bottom: 90px;;
 align-items: center;
 position: absolute;
 
 }
 }
 @media (max-width: 768px) {
-    section {
-        display: flex;
-        flex-direction: column;
+    section{
+        margin:0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        white-space: nowrap;
     }
 }
 @media (max-width: 768px) {
+    section .box1 img{
+        width:100% auto;
+        height: 70%;
+      }
+}
+@media (max-width: 768px) {
+    section .box2 img{
+        width:100%;
+        height: 50%;
+      }
+}
+@media (max-width: 768px) {
+    section .box3 img{
+        width:100%;
+        height: 100%;
+        white-space: wrap;
+      }
+}
+@media (max-width: 768px) {
     section .box1{
+        margin:0;
+        padding: 0;
+
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -62,9 +107,8 @@ position: absolute;
         display: flex;
         flex-direction: column;
         align-items: center;
-        white-space: nowrap;
         font-size: 20px;
-
+        white-space: wrap;
     }
 }
 @media (max-width: 768px) {
@@ -72,20 +116,42 @@ position: absolute;
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 60%;
+        width: 100%;
         white-space: nowrap;
     }
 }
+
 @media (max-width: 768px) {
-    article {
+    section .isi .box1 h3{
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        align-items: start;
+        width: 100%;
+        white-space: wrap;
+        font-size: 10px;
+        padding:20px;
+        }
+}
+@media (max-width: 768px) {
+    section .box2 .isi h3{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 100%;
+        white-space: nowrap;
+        font-size: 40px;
+        }
+}
+@media (max-width: 768px) {
+    article {
+        margin:0;
+        display: flex;
         width: 100%;
         height: 100%;
         white-space: wrap;
         font-size: 20px;
+        padding: 20px;
+        background-color: green;
     }
 }
 @media (max-width: 768px) {
@@ -96,10 +162,13 @@ position: absolute;
         grid-gap: 20px;
         justify-content: center;
         white-space: nowrap;
+        width: 100%;
     }
 }
 @media (max-width: 768px) {
     footer {
+        margin:0;
+
         display: flex;
         flex-direction: column;
         align-items: center;
