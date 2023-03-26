@@ -336,12 +336,11 @@ footer figure{
 footer .footer {
   margin: 20px;
   column-gap: 10px;
-  line-height: 1.5;
+  line-height: 2;
   font-size: 20px;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 0 20px;
 }
 .footer{
   display: flex;
