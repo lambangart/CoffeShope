@@ -151,7 +151,6 @@ position: absolute;
         white-space: wrap;
         font-size: 20px;
         padding: 20px;
-        background-color: green;
     }
 }
 @media (max-width: 768px) {

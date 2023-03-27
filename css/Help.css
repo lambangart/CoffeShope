@@ -1,0 +1,81 @@
+main{
+display: flex;
+flex-direction: column;
+justify-content: center;
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+padding-bottom: 50px;
+}
+main h1 {
+display: flex;
+flex-direction: flex-start;
+align-items: start;
+font-size: 20px;
+font-weight: 800;
+Line-height:57.6px;
+color: rgba(15, 139, 141, 1);
+}
+.help{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;   
+border: 1px solid rgba(210, 210, 210, 1);
+border-radius: 5px;
+padding: 20px;
+color:rgba(20, 54, 66, 1);
+width: 50%;
+height: 100%;
+}
+.help button{
+background-color: rgba(168, 32, 26, 1);
+color: white;
+border-radius: 20px;
+border: none;
+white-space: nowrap;
+width: 40%;
+padding: 10px;
+}
+
+.help input[type="text"]{
+border: 1px solid rgba(210, 210, 210, 1);
+border-radius: 5px;
+padding: 10px;
+width: 70%;
+}
+.help input[type="text"]:focus{
+outline: none;
+}
+.help input[type="text"]:hover{
+border: 1px solid rgba(168, 32, 26, 1);
+}
+.help input[type="email"]{
+border: 1px solid rgba(210, 210, 210, 1);
+border-radius: 5px;
+padding: 10px;
+width: 70%;
+}
+.help input[type="email"]:focus{
+outline: none;
+}
+.help input[type="email"]:hover{
+border: 1px solid rgba(168, 32, 26, 1);
+}
+.help input[type="phone"]{
+border: 1px solid rgba(210, 210, 210, 1);
+border-radius: 5px;
+padding: 10px;
+width: 70%;
+}
+.help input[type="phone"]:focus{
+outline: none;
+}
+.help input[type="phone"]:hover{
+border: 1px solid rgba(168, 32, 26, 1);
+}
+.help textarea{
+border: 1px solid rgba(210, 210, 210, 1);
+border-radius: 5px;
+padding: 10px;
+width: 70%;
+}
