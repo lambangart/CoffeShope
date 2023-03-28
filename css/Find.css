@@ -29,6 +29,7 @@ main .map .alamat1{;
     margin-top: 20px;
     padding: 20px;
     border-radius: 10px;
+    font-size: 20px;
     border: 1px solid #E5E5E5;
     background-color: #FFFFFF;
 }
