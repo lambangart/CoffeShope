@@ -20,34 +20,44 @@ main .container{
     display: flex;
     flex-direction: row;
 }
+.isi{
+  padding-bottom: 100px;
+  color:rgba(20, 54, 66, 1)
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1;
+  white-space:normal;  
+}
 main .isi h1{
-color :rgba(15, 139, 141, 1);
+color : rgba(15, 139, 141, 1);
 white-space: nowrap;
-padding: 10px;
+font-family: 'Lato', sans-serif;
 }
 main .map .alamat1{;
     margin-top: 20px;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 50px;
+    border-radius: 30px;
     font-size: 20px;
     border: 1px solid #E5E5E5;
     background-color: #FFFFFF;
 }
 main .map .alamat2{
     margin-top: 20px;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 50px;
+    border-radius: 30px;
     border: 1px solid #E5E5E5;
     background-color: #FFFFFF;
 }
 main .map .alamat3{
     margin-top: 20px;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 50px;
+    border-radius: 30px;
     border: 1px solid #E5E5E5;
     background-color: #FFFFFF;
 }
 .peta{
-    margin-top: 70px;
+    margin-top: 135px;
     padding: 20px;
+    border-radius: 30px;
 }
