@@ -132,7 +132,7 @@ outline: none;
         }
         main h1 {
         position: relative;
-        padding-right: 20px;
+        padding-right: 14px;
         font-size: 30px;
         font-weight: 600;
         Line-height:57.6px;
@@ -147,7 +147,7 @@ outline: none;
             form label {
                 display: flex;
                 flex-direction:column;
-                font-size: 20px;
+                font-size: 12x;
                 color: rgba(20, 54, 66, 1);
                 font-weight: 700;
                 Line-height: 36px;
@@ -162,7 +162,7 @@ outline: none;
                 padding:20px;
                 color:rgba(20, 54, 66, 1);
                 width: 85%;
-                height: 50%;
+                height: 100%;
                 margin: 0 auto;
                 }
                 .help button{
@@ -173,9 +173,9 @@ outline: none;
                     border-radius: 20px;
                     border: none;
                     white-space: nowrap;
-                    width: 20%;
+                    width: 50%;
                     padding: 10px;
-                    margin-left: 120px;
+                    margin-left: 70px;
                 }
-            
+                
 }
