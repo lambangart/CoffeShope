@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* class container and content */
+.container {
+    width: 100%;
+    margin: 0 auto;
+    background: url("../img/Coffe Header.png");
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border-radius: 20px;
+}
+
+.content {
+    background: rgba(20, 54, 66, 0.7);
+}
+
+/* header */
+header nav {
+    display: flex;
+    border-radius: 30px 30px 0px 0px;
+    color: white;
+    font-size: 1.rem;
+    position: absolute;
+    width: 100%;
+    height: 145px;
+    left: 0px;
+    top: 0px;
+    padding: 1rem 0;
+}
+
+header nav .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2rem;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: end;
+    gap: 5rem;
+    align-items: center;
+    width: 100%;
+    padding-right: 12rem;
+    padding-left: 2rem;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* main */
+main {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    height: 100vh;
+    width: 100%;
+    padding: 0 2rem;
+}
+
+main .isi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 2rem;
+    font-size: 50px;
+    white-space: nowrap;
+    font-weight: 800;
+}
+
+main .isi span {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 7px;
+    margin-top: 2rem;
+}
+
+/* section */
+article {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    /* background-color: blue; */
+
+}
+
+article h1 {
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Lato';
+    color: rgba(15, 139, 141, 1);
+    padding: 0 20px;
+}
+
+article span {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Lato';
+    color: rgba(236, 154, 41, 1);
+    padding: 0 20px;
+}
+
+article figure {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-template-rows: repeat(1, 250px);
+    grid-gap: 100px;
+    white-space: nowrap;
+}
+
+article h1 {
+    animation: right 10s ease-in-out;
+}
+
+article figure img {
+    animation: left 10s ease-in-out;
+}
+
+article h3 {
+    padding-top: 40px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Lato';
+    color: rgba(15, 139, 141, 1);
+}
+
+article p {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Lato';
+    color: rgba(20, 54, 66, 1);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* section */
+section {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* background-color: red; */
+}
+
+section .box1 {
+    display: flex;
+    padding: 20px;
+    margin: 0 10px;
+    color: white;
+    white-space: wrap;
+    column-gap: 60px;
+    width: auto;
+}
+
+section .box1 img {
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    padding: 20px;
+    border-radius: 40px;
+    margin: 0 20px;
+    animation: slide1 4s ease-in-out;
+}
+
+section .isi {
+    animation: slide2 4s ease-in-out;
+
+}
+
+section .box2 .isi {
+    animation: slide1 4s ease-in-out;
+}
+
+section .box1 h3 {
+    padding-top: 27px;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Lato';
+    color: rgba(15, 139, 141, 1);
+    text-decoration: underline;
+    text-decoration-color: rgba(236, 154, 41, 1);
+    text-underline-offset: 15px;
+}
+
+section .box1 p {
+    white-space: pre-line;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Lato';
+    color: rgba(20, 54, 66, 1);
+    padding-top: 20px;
+}
+
+/* BOX2 */
+section .box2 {
+    display: flex;
+    flex-direction: row-reverse;
+    white-space: pre-line;
+    padding: 20px;
+    padding-left: 50px;
+    margin: 0 10px;
+    color: black;
+    column-gap: 100px;
+
+}
+
+section .box2 h3 {
+    padding-top: 27px;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Lato';
+    color: rgba(15, 139, 141, 1);
+    text-decoration: underline;
+    text-decoration-color: rgba(236, 154, 41, 1);
+    text-underline-offset: 25px;
+}
+
+section .box2 p {
+    white-space: pre-line;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Lato';
+    color: rgba(20, 54, 66, 1);
+    padding-top: 20px;
+}
+
+section .box2 img {
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    padding: 20px;
+    border-radius: 40px;
+    margin: 0 auto;
+    animation: slide2 4s ease-in-out;
+}
+
+/* BOX3 */
+section .box3 {
+    display: flex;
+    padding: 20px;
+    margin: 0 10px;
+    color: white;
+    white-space: wrap;
+    column-gap: 20px;
+}
+
+section .box3 img {
+    width: 454px;
+    height: 410px;
+    border-radius: 20px;
+    padding: 20px;
+    border-radius: 40px;
+    margin: 0 20px;
+    animation: slide1 4s ease-in-out;
+
+}
+
+section .box3 h3 {
+    padding-top: 27px;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Lato';
+    color: rgba(15, 139, 141, 1);
+    text-decoration: underline;
+    text-decoration-color: rgba(236, 154, 41, 1);
+    text-underline-offset: 25px;
+
+}
+
+section .box3 p {
+    white-space: pre-line;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Lato';
+    color: rgba(20, 54, 66, 1);
+    padding-top: 20px;
+}
+
+/* bottom css red */
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    background-color: rgba(168, 32, 26, 1);
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Lato';
+    margin-top: 20px;
+    margin-bottom: 20px;
+    white-space: nowrap;
+    weight: 100%;
+}
+
+/* footer */
+footer .logo-footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    column-gap: 1px;
+    width: 100%;
+    padding: 20px;
+    cursor: pointer;
+}
+.logo2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+    margin-top: 80px;
+    column-gap: 10px;
+}
+figure{ 
+    flex-direction: row;
+    filter: brightness(0) invert(1);
+    width:1%;
+}
+
+footer figure nth-child(2){
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+footer {
+    background-color: rgba(20, 54, 66, 1);
+    width: 100%;
+    padding: 20px;
+    color: white;
+  }
+  .footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: row;
+    column-gap: 20px;
+    width: 100%;
+  }
+    .footer-bottom ul{
+        font-size: 20px;
+        font-weight: 400;
+        font-family: 'Lato';
+        padding-top: 20px;
+
+    }
