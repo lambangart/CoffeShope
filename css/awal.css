@@ -52,7 +52,9 @@ header nav ul {
     padding-right: 12rem;
     padding-left: 2rem;
 }
-
+.logo-footer figure img{
+    margin-right: 60px;
+}
 ul {
     list-style-type: none;
     margin: 0;
