@@ -343,22 +343,14 @@ footer .logo-footer {
     display: flex;
     flex-direction: row;
     width: 100%;
-    
-    margin-top: 80px;
-    column-gap: 10px;
+    margin-top: 100px;
+    column-gap: 20px;
 }
 figure{ 
     flex-direction: row;
     filter: brightness(0) invert(1);
     width:1%;
 }
-
-footer figure nth-child(2){
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-}
-
 footer {
     background-color: rgba(20, 54, 66, 1);
     width: 100%;
@@ -368,7 +360,7 @@ footer {
   .footer-bottom{
     display: flex;
     justify-content: space-between;
-    align-items: row;
+    align-items: column;
     column-gap: 20px;
     width: 100%;
   }
@@ -376,6 +368,4 @@ footer {
         font-size: 20px;
         font-weight: 400;
         font-family: 'Lato';
-        padding-top: 20px;
-
     }
