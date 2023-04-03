@@ -1,11 +1,12 @@
 @media (min-width: 768px) {
     * {
-        margin: 0;
-        padding: 0;
+        margin: 0px;
+        padding: 0px;
         box-sizing: border-box;
         font-family: 'Poppins', sans-serif;
     }
 }
+
 
 @media (max-width: 768px) and (min-width: 320px) {
     header {
@@ -20,6 +21,7 @@
 
 @media (max-width: 768px) and (min-width: 320px) {
     header nav {
+        position: relative;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -56,7 +58,26 @@
         width: 100%;
     }
 }
+@media (min-width:375px) and (max-width: 768px) {
+    main .isi {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 1rem;
+        font-size: 12px;
+        font-weight: 600;
+        white-space: normal;
+        width: 100%;
+    }
 
+    main .isi span {
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        margin-top: 2rem;
+    }
+}
 @media (max-width: 768px) and (min-width: 320px) {
     .container {
         width: 100%;
@@ -71,7 +92,9 @@
     .content {
         background: rgba(20, 54, 66, 0.7);
     }
-
+    main{
+        width: 100%;
+    }
     main .isi {
         display: flex;
         justify-content: center;
@@ -81,6 +104,7 @@
         font-size: 30px;
         font-weight: 600;
         white-space: nowrap;
+        width: 100%;
     }
 
     main .isi span {
@@ -100,19 +124,18 @@
     }
 
     section .box1 img {
-        width: 100% auto;
-        height: 70%;
+        width: 20rem;
+        height: 26rem;
     }
 
     section .box2 img {
-        width: 100%;
-        height: 50%;
+        width: 20rem;
+        height: 20rem;
     }
 
     section .box3 img {
-        width: 100%;
-        height: 100%;
-        white-space: wrap;
+        width: 20rem;
+        height: 20rem;
     }
 
     section .box1 {
@@ -130,6 +153,7 @@
         align-items: center;
         font-size: 20px;
         white-space: wrap;
+        padding: 20px;
     }
 
     section .box3 {
@@ -138,22 +162,35 @@
         align-items: center;
         width: 100%;
         white-space: nowrap;
+        padding: 20px;
     }
 
-    section .isi .box1 h3 {
+    section .box1 .isi h3 {
         display: flex;
         flex-direction: column;
         align-items: start;
         width: 100%;
-        white-space: wrap;
-        font-size: 10px;
-        padding: 20px;
+        white-space: nowrap;
+        font-size: 40px;
     }
+    section .box1 .isi p {
+        margin-top: 2rem;
+        font-size: 18px;
+    }
+
 
     section .box2 .isi h3 {
         display: flex;
         flex-direction: column;
         align-items: start;
+        width: 100%;
+        white-space: nowrap;
+        font-size: 40px;
+    }
+    section .box3 .isi h3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         width: 100%;
         white-space: nowrap;
         font-size: 40px;
@@ -194,12 +231,13 @@
         white-space: nowrap;
         align-items: center;
     }
-    article figure {
-    display: grid;
-    grid-template-columns: repeat(3, 120px);
-    grid-template-rows: repeat(1, 110px);
-    grid-gap: 10px;
-    }
+    article figure{
+        display: grid;
+        grid-template-columns: repeat(3, 250px);
+        grid-template-rows: repeat(1, 250px);
+        grid-gap: 60px;
+        white-space: nowrap;
+      }
 
       
 @media (max-width: 768px) and (min-width: 320px){
@@ -213,11 +251,15 @@
         padding: 20px;
         cursor: pointer;
     }
+    article figure{
+        display: grid;
+        grid-template-columns: repeat(3, 110px);
+        grid-template-rows: repeat(1, 110px);
+        grid-gap: 20px;
+        white-space: nowrap;
+      }
     footer .logo-footer figure img{
         width: 20rem;
-    }
-    figure{ 
-        filter: brightness(0) invert(1);
     }
     footer {
         background-color: rgba(20, 54, 66, 1);
