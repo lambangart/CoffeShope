@@ -57,6 +57,7 @@ main{
     align-items: center;
     justify-content: center;
     display: flex;
+    flex-direction: column;
 }
 main .container .content{
     display: flex;
@@ -119,77 +120,3 @@ main .container .coffe figure span {
     padding-top: 1rem;
     
 }
-/* footer */
-
-footer {
-    background-color: rgba(20, 54, 66, 1);
-    width: 100%;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-  
-  }
-  footer figure{
-    display: flex;
-    padding: 20px;
-    margin: 0 10px;
-    color: white;
-    white-space: wrap;
-    padding-top: 1px;
-    padding-bottom: 40px;
-    
-  }
-  
-  footer .footer {
-    margin: 20px;
-    column-gap: 10px;
-    line-height: 2;
-    font-size: 20px;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-  }
-  .footer{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    width: 100%;
-    white-space: nowrap;
-  }
-  .footer .product h3{
-    font-size: 20px;
-    font-weight: 600;
-    font-family: 'Lato';
-    color: rgba(236, 154, 41, 1);
-    padding: 0 20px;
-  }
-  .footer .store{
-    font-size: 20px;
-    font-weight: 600;
-    font-family: 'Lato';
-    color: rgba(236, 154, 41, 1);
-    padding-bottom: 60px;
-  }
-  .footer .store h3{
-    font-size: 20px;
-    font-weight: 600;
-    font-family: 'Lato';
-    color: rgba(236, 154, 41, 1);
-    padding: 0 20px;
-  }
-  .footer .contact {
-    font-size: 20px;
-    font-weight: 600;
-    font-family: 'Lato';
-    color: rgba(236, 154, 41, 1);
-    padding-bottom: 60px;
-  }
-  .footer .contact h3{
-    font-size: 20px;
-    font-weight: 600;
-    font-family: 'Lato';
-    color: rgba(236, 154, 41, 1);
-    padding: 0 20px;
-  }

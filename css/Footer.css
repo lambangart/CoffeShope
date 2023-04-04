@@ -4,17 +4,11 @@ footer .logo-footer {
     justify-content: space-between;
     flex-direction: row;
     column-gap: 10px;
-    width: 90%;
+    width: 100%;
     padding: 20px;
-    font-size: 30px;
     cursor: pointer;
 }
-
-.logo-footer figure img {
-    margin-right: 60px;
-}
-
-.logo2 {
+.logo2{
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -27,31 +21,24 @@ footer {
     width: 100%;
     padding: 20px;
     color: white;
-}
-
-.footer-bottom {
+  }
+  .footer-bottom{
     display: flex;
     justify-content: space-between;
     align-items: column;
     column-gap: 20px;
     width: 100%;
-}
+  }
+    .footer-bottom ul{
+        font-size: 20px;
+        font-weight: 400;
+        font-family: 'Lato';
+    }
 
-.footer-bottom ul a {
-    font-size: 40px;
-    font-weight: 400;
-    font-family: 'Lato';
-}
-
-.footer-bottom ul li {
-    font-size: 40px;
-    font-weight: 400;
-    font-family: 'Lato';
-}
 
 /* RESPONSIVE */
 
-@media (max-width: 768px) and (min-width: 320px) {
+@media (max-width: 790px) and (min-width: 320px) {
     /* FOOTER */
 footer .logo-footer {
         display: flex;
@@ -60,24 +47,33 @@ footer .logo-footer {
         width: 100%;
         padding: 20px;
         cursor: pointer;
+        margin:10px;
+        margin-right: 20px;
     }
 }
-footer .logo-footer figure img {
-    width: 24rem;
+.logo-footer figure img {
+    margin-right: 60px;
+    width: 15rem;
     height: 4rem;
+    margin-bottom: 20px;
 }
 
 footer {
     background-color: rgba(20, 54, 66, 1);
     width: 100%;
     color: white;
+    padding-right: 20px;
+    margin-right: 20px;
 }
 
 footer.footer-bottom {
-    padding:20px;
-    align-items: column;
-    white-space: nowrap;
-    font-size: 6px;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 10px;
+    width: 100%;
+    padding: 20px;
+    
 }
 .footer-bottom ul a {
     font-size: 15px;
@@ -87,8 +83,9 @@ footer.footer-bottom {
 
 .footer-bottom ul li {
     padding-left: 10px;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 600;
     font-family: 'Lato';
     white-space: nowrap;
+    
 }
