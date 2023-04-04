@@ -71,28 +71,30 @@ footer .logo-footer figure img {
 footer {
     background-color: rgba(20, 54, 66, 1);
     width: 100%;
-
     color: white;
 }
 
-.footer-bottom {
+footer.footer-bottom {
     display: flex;
     justify-content: space-between;
     align-items: column;
     column-gap: 11px;
     width: 100%;
     white-space: nowrap;
-
+    font-size: 10px;
+    
 }
 
 .footer-bottom ul a {
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 22px;
+    font-weight: 700;
     font-family: 'Lato';
 }
 
 .footer-bottom ul li {
-    font-size: 19px;
-    font-weight: 400;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 600;
     font-family: 'Lato';
+    white-space: nowrap;
 }
