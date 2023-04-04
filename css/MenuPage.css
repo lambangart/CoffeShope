@@ -82,7 +82,10 @@ main span {
     font-size: 24px;
     padding-top: 1rem;
 }
+.kosong{
+  height:100vh;
 
+}
 main .container .coffe  {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
